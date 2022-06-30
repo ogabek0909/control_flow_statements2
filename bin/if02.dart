@@ -20,4 +20,6 @@ int func(a, b, c) {
     return c;
 }
 
-void main() {}
+void main() {
+  print(func(324, 324, 234));
+}
